@@ -1,0 +1,21 @@
+InputPath: "../../datas/output/plug_test_img/"
+#img_names: ["1.png",  "2.png", "3.png", "4.png", "5.png"]
+#img_names: ["1.png",  "2.png", "3.png"]
+#img_names: ["11.jpg",  "12.jpg", "13.jpg", "14.jpg"]
+#img_names: ["21.jpg",  "22.jpg", "23.jpg"]
+img_names: ["41.png",  "42.png", "43.png", "44.png", "45.png"]
+
+# merge parameter:
+cali_gamma: 10.0
+LDR_SIZE: 256
+merge_gamma: 1.2
+contrast: 4.0
+saturation: 0
+sigma_space: 2.0
+sigma_color: 2.0
+
+# fusion parameter:
+wcon: 1.0
+wsat: 1.0
+wexp: 0.0
+
